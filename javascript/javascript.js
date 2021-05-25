@@ -1,3 +1,15 @@
+function validaIdade(idade){
+    var validar;
+    if (idade >= 18){
+        validar=true
+    }else{
+        valida=false
+    }
+    return validar;
+}
+
+var idade = prompt("Qual sua idade");
+alert(validaIdade(idade));
 
 /*var d = new Date();
 
