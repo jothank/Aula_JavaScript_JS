@@ -1,4 +1,36 @@
-function validaIdade(idade){
+function botao(){
+    document.getElementById("Agradecimento").innerHTML = "Clique aqui novamente!";
+}
+
+function redirecionar(){
+    window.open("http://www.google.com.br/");
+}
+
+function trocar(){
+    document.getElementById("mousemove").innerHTML ="passou o mouse"
+    //alert("passou o mouse");
+}
+
+function voltar(){
+    document.getElementById("mousemove").innerHTML ="volte com mouse"
+    //alert("passou o mouse");
+}
+
+function funcaochange(elemento){
+    alert(elemento.value)
+}
+
+
+/*function botao(){
+    document.getElementById("Agradecimento").innerHTML = "Obrigado por clicar!";
+}
+
+
+/*function botao(){
+    alert("obrigado por clicar")
+}
+
+/*function validaIdade(idade){
     var validar;
     if (idade >= 18){
         validar=true
